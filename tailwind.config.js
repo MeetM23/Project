@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        axiforma: ["'Axiforma Regular'"],
+        roboto: ["'Roboto Condensed'", "sans-serif"],
+        made: ["'MADE Mirage'"],
+      },
+    },
   },
   plugins: [],
 };

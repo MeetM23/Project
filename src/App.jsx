@@ -5,6 +5,7 @@ import { useState } from "react";
 // import Component from "./components/NavBar";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import SectionOne from "./components/SectionOne";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,11 +13,11 @@ function App() {
     setCount((prev) => prev + 1);
   };
 
-  let number = "hello";
   return (
     <>
       <NavBar />
       <Hero />
+      <SectionOne />
     </>
   );
 }
